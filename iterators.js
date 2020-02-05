@@ -53,6 +53,7 @@ const hottestDays = (temperatures, threshhold) =>
 const logHottestDays = (temperatures, threshhold) => {
   let hotday = hottestDays(temperatures, threshhold);
   let cel = toCelsius(hotday);
+
   logger(cel);
 };
 
